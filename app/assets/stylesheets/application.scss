@@ -1,0 +1,65 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.jumbotron {
+	border-radius: 45px;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	text-align: center;
+}
+
+.jumbotron-2 {
+	background-color: #e6e6e6;
+	border: 1px solid black;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	border-radius: inherit;
+}
+
+.page { margin-top: 55px }
+
+.p1 {
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 10px
+}
+
+.navbar {
+	border-radius: 2px;
+	background-color: #e0e0e0;
+	color: black;
+}
+
+.navbar-right { margin-right: 2% }
+
+.gradient { background-image: linear-gradient(to right, #ccffff, #00e6e6) }
+
+.center { text-align: center }
+
+.left-bound { margin-left: 5% }
+
+.contact {
+	border: 1.5px solid black;
+	border-radius: 30px;
+	margin-left: 5%;
+	margin-bottom: 1%;
+	margin-top: 4%;
+	width: 250px;
+	padding-left: 10px;
+	background-color: #e0e0e0;
+}
